@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b440b4;
+  background: #7d55ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2440,17 +2440,24 @@ ul.breadcrumb li + li:last-child {
 .links-of-blogroll-item {
   padding: 0;
 }
+.main-inner {
+  opacity: 0.8;
+}
+.header-inner {
+  opacity: 0.85;
+  z-index: 10;
+}
+.sidebar {
+  opacity: 0.85;
+}
+.content {
+  padding-top: 15px;
+  opacity: 0.9;
+}
 body {
-  background: url("images/background1.png");
+  background: url("/images/background1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
-}
-.main-inner {
-  background: #fff;
-  opacity: 0.8;
-}
-.header-inner {
-  opacity: 0.8;
 }
